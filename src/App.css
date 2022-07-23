@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:ital,wght@1,100&display=swap");
+.App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Epilogue", sans-serif;
+}
+
+section {
+    margin: 5rem;
+    /* border: 1px solid #000000; */
+    width: 90vw;
+    height: 80vh;
+}
+
+nav {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    width: 90vw;
+}
+
+.side {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 0.9rem;
+    margin-left: 15px;
+}
+
+.features,
+.company {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.features img,
+.company img {
+    margin-bottom: 6px;
+}
+
+.side p {
+    margin-top: 0.2rem;
+}
+
+.side p:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.arrowdown {
+    color: hsl(0, 0%, 8%);
+}
+
+.side p:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.login {
+    margin-right: 1rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login p:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.register {
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 41%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.register:hover {
+    border: 1px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+}
+
+main {
+    display: grid;
+    grid-gap: 13rem;
+    grid-template-columns: auto 1fr;
+}
+
+.remote {
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.remote h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 4rem;
+    width: 20rem;
+}
+
+.remote p {
+    color: hsl(0, 0%, 41%);
+    line-height: 1.9;
+    width: 24rem;
+}
+
+.hero {
+    width: 35vw;
+    height: 70vh;
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10%;
+    margin-bottom: 3rem;
+}
+
+
+/* /* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} * */
